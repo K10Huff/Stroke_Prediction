@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Ignore Mac files
-
+.DS_Store
 
 # Igonre potentially large datasets
 .csv
