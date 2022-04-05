@@ -128,9 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Ignore Mac files
+# Ignore Mac Files
 .DS_Store
 
-# Igonre potentially large datasets
+# Ignore Large Files
 .csv
 .json
