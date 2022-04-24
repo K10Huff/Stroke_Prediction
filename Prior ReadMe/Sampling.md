@@ -106,12 +106,14 @@ Balanced Accuracy Score: 0.7243916797488226
 
                   Predicted No Stroke  Predicted Stroke
 Actual No Stroke                  867               309
-Actual Stroke                      15                37                   pre       rec       spe        f1       geo       iba       sup
+Actual Stroke                      15                37
+
+                   pre       rec       spe        f1       geo       iba       sup
 
           0       0.98      0.74      0.71      0.84      0.72      0.53      1176
           1       0.11      0.71      0.74      0.19      0.72      0.52        52
 
-avg / total       0.95      0.74      0.71      0.81      0.72      0.53      1228For the results we see that overall precision is quite good, however the precision of predicted stoke is very low. This shows a high level of type 1 error [false positive].
+avg / total       0.95      0.74      0.71      0.81      0.72      0.53      1228
 ```
 
 For the results we see that overall precision is quite good, however the precision of predicted stoke is very low. This shows a high level of type 1 error [false positive].
