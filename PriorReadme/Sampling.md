@@ -144,10 +144,6 @@ avg / total       0.95      0.71      0.82      0.79      0.76      0.57      12
 
 For the results we see that overall precision is quite good, however the precision of predicted stoke is very low. This shows a high level of type 1 error [false positive].
 
-
-
 ## Conclusions
 
 Overall we see that the sampling methods fare quite similarly in their results. They all seem very susceptible to type 1 error. Albeit in this scenario, type 1 error, or false positive is far more ideal than false negatives, which could lead to strokes that would not be predicted. They all boast similar F1 scores, but the BAC (Balanced Accuracy Score) of the SMOTEEN and ADASYN models are higher. Given that the dataset we are using is on the smaller side, it may be more beneficial to use an oversampling technique to do the training as it would generate more points in the minority class.
-
-
