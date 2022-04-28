@@ -87,8 +87,7 @@ For the results we see that overall precision is quite good, however the precisi
 
 We wanted to take a look at the specific inputs that the model was using to make its classifying decision. These were the percentage weight it was putting on each of the inputted features. 
 
-|Features| Weighted Percentage|
-| :----: | :----: |
+
 |age                                    | 0.33983019949238036|
 |avg_glucose_level                      | 0.17349014475396338|
 |bmi                                    | 0.14971810735343785|
@@ -112,7 +111,121 @@ We wanted to take a look at the specific inputs that the model was using to make
 |gender_Other                          |  0.0|
 ```
 
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
 
+<table class="tablelines">
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Weighted Percentage</th>
+     </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>age</td>
+      <td>33983019949238036</td>
+     </tr>
+    <tr>
+      <td>avg_glucose_level</td>
+      <td>0.17349014475396338</td>
+    </tr>
+    <tr>
+      <td>bmi</td>
+      <td>0.14971810735343785</td>
+    </tr>
+    <tr>
+      <td>hypertension</td>
+      <td>0.04261018022895897</td>
+   
+    </tr>
+  </tbody>
+</table>
+
+<table class="tablelines">
+  <tbody>
+    <tr>
+      <td>a</td>
+      <td>b</td>
+      <td>c</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="tablelines">
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+    <tr>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+    </tr>
+    <tr>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tfoot>
+</table>
+
+<table class="tablelines">
+  <tbody>
+    <tr>
+      <td>A simple</td>
+      <td>table</td>
+    </tr>
+    <tr>
+      <td>with multiple</td>
+      <td>lines</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Conclusions
 
