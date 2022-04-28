@@ -88,29 +88,6 @@ For the results we see that overall precision is quite good, however the precisi
 We wanted to take a look at the specific inputs that the model was using to make its classifying decision. These were the percentage weight it was putting on each of the inputted features. 
 
 
-|age                                    | 0.33983019949238036|
-|avg_glucose_level                      | 0.17349014475396338|
-|bmi                                    | 0.14971810735343785|
-|hypertension                           | 0.04261018022895897|
-|work_type_Self-employed                | 0.026672087712252122|
-|heart_disease                          | 0.026671609408358332|
-|ever_married_No                       |  0.024328916335137944|
-|ever_married_Yes                      |  0.023115905937615477|
-|smoking_status_Unknown                |  0.020449701213853793|
-|work_type_Private                     |  0.02007207888484315|
-|smoking_status_never smoked           |  0.019951802300754967|
-|smoking_status_formerly smoked        |  0.019684002652911994|
-|work_type_children                     | 0.018427413493115052|
-|Residence_type_Urban                  |  0.017785897634571397|
-|gender_Male                           |  0.016488190464610017|
-|Residence_type_Rural                  |  0.01639706241458821|
-|smoking_status_smokes                 |  0.015680279157306187|
-|gender_Female                         |  0.014850498078374064|
-|work_type_Govt_job                    |  0.013635204854215526|
-|work_type_Never_worked                |  0.00014071762875119773|
-|gender_Other                          |  0.0|
-```
-
 <style>
 .tablelines table, .tablelines td, .tablelines th {
         border: 1px solid black;
@@ -124,11 +101,10 @@ We wanted to take a look at the specific inputs that the model was using to make
       <th>Weighted Percentage</th>
      </tr>
   </thead>
-  
   <tbody>
     <tr>
       <td>age</td>
-      <td>33983019949238036</td>
+      <td>0.33983019949238036</td>
      </tr>
     <tr>
       <td>avg_glucose_level</td>
@@ -141,91 +117,80 @@ We wanted to take a look at the specific inputs that the model was using to make
     <tr>
       <td>hypertension</td>
       <td>0.04261018022895897</td>
-   
+    </tr>
+    <tr>
+      <td>work_type_Self-employed</td>
+      <td>0.026672087712252122</td>
+    </tr>
+    <tr>
+      <td>heart_disease</td>
+      <td>0.026671609408358332</td>
+    </tr>
+    <tr>
+      <td>ever_married_No</td>
+      <td>0.024328916335137944</td>
+    </tr>   
+    <tr>
+      <td>ever_married_Yes</td>
+      <td> 0.023115905937615477</td>
+    </tr>
+    <tr>
+      <td>smoking_status_Unknown</td>
+      <td>0.020449701213853793</td>
+    </tr>
+    <tr>
+      <td>work_type_Private</td>
+      <td>0.02007207888484315</td>
+    </tr>
+    <tr>
+      <td>smoking_status_never_smoked </td>
+      <td>0.019951802300754967</td>
+    </tr>
+    <tr>
+      <td>smoking_status_formerly_smoked</td>
+      <td>0.019684002652911994</td>
+    </tr> 
+    <tr>
+      <td>work_type_children</td>
+      <td>0.018427413493115052</td>
+    </tr>
+    <tr>
+      <td>Residence_type_Urban</td>
+      <td>0.017785897634571397</td>
+    </tr>
+    <tr>
+      <td>gender_Male</td>
+      <td>0.016488190464610017</td>
+    </tr>
+    <tr>
+      <td>Residence_type_Rural</td>
+      <td>0.01639706241458821</td>
+    </tr>
+    <tr>
+      <td>smoking_status_smokes</td>
+      <td>0.015680279157306187</td>
+    </tr>      
+    <tr>
+      <td>gender_Female</td>
+      <td>0.014850498078374064</td>
+    </tr>
+    <tr>
+      <td>work_type_Govt_job</td>
+      <td>0.013635204854215526</td>
+    </tr>
+    <tr>
+      <td>work_type_Never_worked</td>
+      <td>0.00014071762875119773</td>
+    </tr>
+    <tr>
+      <td>gender_Other</td>
+      <td>0.0</td>
     </tr>
   </tbody>
 </table>
 
-<table class="tablelines">
-  <tbody>
-    <tr>
-      <td>a</td>
-      <td>b</td>
-      <td>c</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
 
-<table class="tablelines">
-  <thead>
-    <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-    </tr>
-    <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-    </tr>
-    <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-  </tfoot>
-</table>
 
-<table class="tablelines">
-  <tbody>
-    <tr>
-      <td>A simple</td>
-      <td>table</td>
-    </tr>
-    <tr>
-      <td>with multiple</td>
-      <td>lines</td>
-    </tr>
-  </tbody>
-</table>
 
 #### Conclusions
 
