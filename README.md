@@ -103,87 +103,87 @@ We wanted to take a look at the specific inputs that the model was using to make
   </thead>
   <tbody>
     <tr>
-      <td>age</td>
-      <td>0.33983019949238036</td>
+      <td>Age</td>
+      <td>0.33983</td>
      </tr>
     <tr>
-      <td>avg_glucose_level</td>
-      <td>0.17349014475396338</td>
+      <td>Avg Glucose Level</td>
+      <td>0.17349</td>
     </tr>
     <tr>
-      <td>bmi</td>
-      <td>0.14971810735343785</td>
+      <td>BMI</td>
+      <td>0.14972</td>
     </tr>
     <tr>
-      <td>hypertension</td>
-      <td>0.04261018022895897</td>
+      <td>Hypertension</td>
+      <td>0.042611</td>
     </tr>
     <tr>
-      <td>work_type_Self-employed</td>
-      <td>0.026672087712252122</td>
+      <td>Work Type: Self-employed</td>
+      <td>0.026672</td>
     </tr>
     <tr>
-      <td>heart_disease</td>
-      <td>0.026671609408358332</td>
+      <td>Heart Disease</td>
+      <td>0.026672</td>
     </tr>
     <tr>
-      <td>ever_married_No</td>
-      <td>0.024328916335137944</td>
+      <td>Ever Married: No</td>
+      <td>0.024329</td>
     </tr>   
     <tr>
-      <td>ever_married_Yes</td>
-      <td> 0.023115905937615477</td>
+      <td>Ever Married: Yes</td>
+      <td> 0.023116</td>
     </tr>
     <tr>
-      <td>smoking_status_Unknown</td>
-      <td>0.020449701213853793</td>
+      <td>Smoking Status: Unknown</td>
+      <td>0.020450</td>
     </tr>
     <tr>
-      <td>work_type_Private</td>
-      <td>0.02007207888484315</td>
+      <td>Work Type: Private</td>
+      <td>0.020072</td>
     </tr>
     <tr>
-      <td>smoking_status_never_smoked </td>
-      <td>0.019951802300754967</td>
+      <td>Smoking Status: Never Smoked </td>
+      <td>0.019952</td>
     </tr>
     <tr>
-      <td>smoking_status_formerly_smoked</td>
-      <td>0.019684002652911994</td>
+      <td>Smoking Status: Formerly Smoked</td>
+      <td>0.019684</td>
     </tr> 
     <tr>
-      <td>work_type_children</td>
-      <td>0.018427413493115052</td>
+      <td>Work Type: Children</td>
+      <td>0.018427</td>
     </tr>
     <tr>
-      <td>Residence_type_Urban</td>
-      <td>0.017785897634571397</td>
+      <td>Residence Type: Urban</td>
+      <td>0.017786</td>
     </tr>
     <tr>
-      <td>gender_Male</td>
-      <td>0.016488190464610017</td>
+      <td>Gender: Male</td>
+      <td>0.016488</td>
     </tr>
     <tr>
-      <td>Residence_type_Rural</td>
-      <td>0.01639706241458821</td>
+      <td>Residence Type: Rural</td>
+      <td>0.016397</td>
     </tr>
     <tr>
-      <td>smoking_status_smokes</td>
-      <td>0.015680279157306187</td>
+      <td>Smoking Status: Smokes</td>
+      <td>0.015680</td>
     </tr>      
     <tr>
-      <td>gender_Female</td>
-      <td>0.014850498078374064</td>
+      <td>Gender: Female</td>
+      <td>0.014850</td>
     </tr>
     <tr>
-      <td>work_type_Govt_job</td>
-      <td>0.013635204854215526</td>
+      <td>Work Type: Goverment Job</td>
+      <td>0.013635</td>
     </tr>
     <tr>
-      <td>work_type_Never_worked</td>
-      <td>0.00014071762875119773</td>
+      <td>Work Type: Never Worked</td>
+      <td>0.00014072</td>
     </tr>
     <tr>
-      <td>gender_Other</td>
+      <td>Gender: Other</td>
       <td>0.0</td>
     </tr>
   </tbody>
