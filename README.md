@@ -102,9 +102,9 @@ In these models, dense refers to the parameter that all perceptrons are intercon
 *A network of multiple layers named hidden layers, holding multiple perceptions. There are different types of interconnectedness including Convolution Neural Networks (CNN), Recurrent Neural Networks (RNN), and Long Short-Term Memory Networks (LSTM). Here the relatively simple dense, feed-forward network was used.*
 
 ### Neural Network Results
-![history_plots](link)
-![confusion_matrices](link)
-![total_acm_df](link)
+![history_plots](https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/history_plots.png)
+![confusion_matrices](https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/confusion_matrices.png)
+![total_acm_df](https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/total_acm_df.png)
 
 ### Neural Network Conclusion
 Here we can see that as the neural network becomes more complex, it becomes more susceptible to overfitting; both the precision and the balanced accuracy scored drop significantly. The simplest, single perceptron model yields the best results. 
