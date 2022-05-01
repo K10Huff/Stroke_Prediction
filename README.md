@@ -12,25 +12,25 @@ The dataset was sourced from https://www.kaggle.com/datasets/fedesoriano/stroke-
 
 ### Initial Analysis of the Data
 Overview of the Features
-<img src="https://github.com/K10Huff/Team_01_Project/blob/97a90d94b01de694379ba3746e971c8f9548fb32/docs/assets/images/Feature_Matrix.png" alt="Overview of the Features">
+<img src="images/Feature_Matrix.png" alt="Overview of the Features">
 
 Subjects in the Dataset Who Have Suffered A Stroke
-<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Target_variable.png" alt="Target Variable">
+<img src="images/Target_variable.png" alt="Target Variable">
 
 Health Metrics
-<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Hyper-Heart-BMI_Vs_Stroke_Risk.png" alt="Hyper_Heart_BMI">
+<img src="images/Hyper-Heart-BMI_Vs_Stroke_Risk.png" alt="Hyper_Heart_BMI">
 
 Heatmap of Smoking Status Brokendown by Age
-<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/HEATMAP-Smoking_Vs_Stroke_Risk.png" alt="Heatmap_Smoking">
+<img src="images/HEATMAP-Smoking_Vs_Stroke_Risk.png" alt="Heatmap_Smoking">
 
 Breakdown of Residence Type by Gender and Smoking Status
-<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/residence_smoking_vs.storke_1.png" alt="Residence_Smoking_Gender">
+<img src="images/residence_smoking_vs.storke_1.png" alt="Residence_Smoking_Gender">
 
 Risk vs Marital Status, Job Type, and Age
-<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Dashboard%231.png" alt="Dashboard">
+<img src="images/Dashboard%231.png" alt="Dashboard">
 
 Heatmap of Married and Residence Type Broken Down by Gender
-<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/HEATMAP-Married_Gender_Residence_Vs_Stroke_Risk.png" alt="Married_Heatmap">
+<img src="images/HEATMAP-Married_Gender_Residence_Vs_Stroke_Risk.png" alt="Married_Heatmap">
 
 ### Results & Visualizations 
 
@@ -117,9 +117,9 @@ In these models, dense refers to the parameter that all perceptrons are intercon
 *A network of multiple layers named hidden layers, holding multiple perceptions. There are different types of interconnectedness including Convolution Neural Networks (CNN), Recurrent Neural Networks (RNN), and Long Short-Term Memory Networks (LSTM). Here the relatively simple dense, feed-forward network was used.*
 
 ### Neural Network Results
-<img src="https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/history_plots.png" alt="history_plots">
-<img src="https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/confusion_matrices.png" alt="confusion_matrices">
-<img src="https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/total_acm_df.png" alt="total_acm_df">
+<img src="images/history_plots.png" alt="history_plots">
+<img src="images/confusion_matrices.png" alt="confusion_matrices">
+<img src="images/total_acm_df.png" alt="total_acm_df">
 
 ### Neural Network Conclusion
 Here we can see that as the neural network becomes more complex, it becomes more susceptible to overfitting; both the precision and the balanced accuracy scored drop significantly. The simplest, single perceptron model yields the best results. 
