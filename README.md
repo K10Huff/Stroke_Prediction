@@ -1,4 +1,5 @@
 # Stroke Prediction
+
 ## Topic Selected
  The goal of this analysis is to put together a stroke prediction model using various health and lifestyle metrics. It is important to understand and assess the risk of suffering from a stroke and the purpose of this investigation is to apply different machine learning models to empower people with information.
 
@@ -6,20 +7,36 @@
 The dataset was sourced from https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset. The dataset includes eleven different features regarding health and lifestyle. The goal is to determine if there is a way to determine a patient’s risk for stroke based on the eleven features.
 
 ### Initial Analysis of the Data
-
 ![ Tableau 1 ](github link)
 ![ Tableau 2 ](github link)
 
-### Questions to be Addressed: 
+#### Questions to be Addressed: 
 - Which learning model work best with our dataset
 - Which features influence the model the most?
-- What metrics best determine stroke risk.
 
-## Results/ Visualization 
-![ Result LM 1 ](github link)
-![ Result LM 2 ](github link)
+### Results & Visualizations 
+Overview of the Features
+![ Feature_Matrix ](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Feature_Matrix.png)
 
-# Ensemble Learning
+Subjects in the Dataset Who Have Suffered A Stroke
+![ Target Variable 1 ](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Target_variable.png)
+
+Health Metrics
+![Hyper_Heart_BMI](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Hyper-Heart-BMI_Vs_Stroke_Risk.png)
+
+Heatmap of Smoking Status Brokendown by Age 
+![Heatmap_Smoking](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/HEATMAP-Smoking_Vs_Stroke_Risk.png)
+
+Breakdown of Residence Type by Gender and Smoking Status
+![ Residence_Smoking_Gender ](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/residence_smoking_vs.storke_1.png)
+
+Risk vs Marital Status, Job Type, and Age
+![ Dashboard 1 ](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Dashboard%231.png)
+
+Heatmap of Married and Residence Type Broken Down by Gender
+![Married_Heatmap](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/HEATMAP-Married_Gender_Residence_Vs_Stroke_Risk.png)
+
+### Ensemble Learning
 
 ### Overview
 
@@ -83,7 +100,33 @@ avg / total       0.95      0.67      0.76      0.77      0.71      0.51      12
 
 For the results we see that overall precision is quite good, however the precision of predicted stoke is very low. This shows a high level of type 1 error [false positive].
 
-### Feature Importance
+#### Ensemble Classifier Conclusions
+
+Overall we see that the ensemble methods fare quite similarly in their results. They all seem very susceptible to type 1 error. Albeit in this scenario, type 1 error, or false positive is far more ideal than false negatives, which could lead to strokes that would not be predicted. The random forest classifier has far better recall however resulting in a higher f1 score. The stark difference of these two models can be traced to their inability to consistently discern when an actual stroke is occurring.
+
+### Neural Networks 
+### Overview
+Neural Networks are machine learning strategies modeled after the human brain. Within neural networks, computations are performed by a neuron or a perceptron and have the ability to pass the data on to other neurons or other layers within the model. The benefit to this model is that after the initial layer, the subsequent perceptrons are working with weighted data instead of raw data.  
+In these models, dense refers to the parameter that all perceptrons are interconnected and ReLU and Sigmoid are activation functions that weight the data in different ways. We were interested in a classification/binary decision and so only one output neuron with a sigmoid activation function was necessary to produce a probability output. During compiling the adam optimizer was used to help the model overcome weaker features and the binary_crossentropy loss function was chosen since it was specifically designed to evaluate a binary classification model.
+
+#### Single Perceptron
+*The simplest of the neural networks, it contains a single perceptron and only two layers. The input layer passes the data to the perceptron and the perceptron performs a set of calculations and passes the weighted data to an activation function for the output layer.*
+
+#### Multi Perceptron, Single Layer
+*In this step the model is elevated to an Artificial Neural Network (ANN) with the addition of other perceptrons.*
+
+#### Deep Learning
+*A network of multiple layers named hidden layers, holding multiple perceptions. There are different types of interconnectedness including Convolution Neural Networks (CNN), Recurrent Neural Networks (RNN), and Long Short-Term Memory Networks (LSTM). Here the relatively simple dense, feed-forward network was used.*
+
+### Neural Network Results
+![history_plots](https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/history_plots.png)
+![confusion_matrices](https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/confusion_matrices.png)
+![total_acm_df](https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/total_acm_df.png)
+
+### Neural Network Conclusion
+Here we can see that as the neural network becomes more complex, it becomes more susceptible to overfitting; both the precision and the balanced accuracy scored drop significantly. The simplest, single perceptron model yields the best results. 
+
+## Feature Importance
 
 We wanted to take a look at the specific inputs that the model was using to make its classifying decision. These were the percentage weight it was putting on each of the inputted features. 
 
@@ -192,6 +235,3 @@ We wanted to take a look at the specific inputs that the model was using to make
 
 
 
-#### Conclusions
-
-Overall we see that the ensemble methods fare quite similarly in their results. They all seem very susceptible to type 1 error. Albeit in this scenario, type 1 error, or false positive is far more ideal than false negatives, which could lead to strokes that would not be predicted. The random forest classifier has far better recall however resulting in a higher f1 score. The stark difference of these two models can be traced to their inability to consistently discern when an actual stroke is occurring.
