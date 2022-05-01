@@ -3,38 +3,36 @@
 ## Topic Selected
  The goal of this analysis is to put together a stroke prediction model using various health and lifestyle metrics. It is important to understand and assess the risk of suffering from a stroke and the purpose of this investigation is to apply different machine learning models to empower people with information.
 
-## Dataset
-The dataset was sourced from https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset. The dataset includes eleven different features regarding health and lifestyle. The goal is to determine if there is a way to determine a patient’s risk for stroke based on the eleven features.
-
-### Initial Analysis of the Data
-![ Tableau 1 ](github link)
-![ Tableau 2 ](github link)
-
 #### Questions to be Addressed: 
 - Which learning model work best with our dataset
 - Which features influence the model the most?
 
-### Results & Visualizations 
+## Dataset
+The dataset was sourced from https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset. The dataset includes eleven different features regarding health and lifestyle. The goal is to determine if there is a way to determine a patient’s risk for stroke based on the eleven features.
+
+### Initial Analysis of the Data
 Overview of the Features
-![ Feature_Matrix ](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Feature_Matrix.png)
+<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Feature_Matrix.png" alt="Overview of the Features">
 
 Subjects in the Dataset Who Have Suffered A Stroke
-![ Target Variable 1 ](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Target_variable.png)
+<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Target_variable.png" alt="Target Variable">
 
 Health Metrics
-![Hyper_Heart_BMI](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Hyper-Heart-BMI_Vs_Stroke_Risk.png)
+<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Hyper-Heart-BMI_Vs_Stroke_Risk.png" alt="Hyper_Heart_BMI">
 
-Heatmap of Smoking Status Brokendown by Age 
-![Heatmap_Smoking](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/HEATMAP-Smoking_Vs_Stroke_Risk.png)
+Heatmap of Smoking Status Brokendown by Age
+<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/HEATMAP-Smoking_Vs_Stroke_Risk.png" alt="Heatmap_Smoking">
 
 Breakdown of Residence Type by Gender and Smoking Status
-![ Residence_Smoking_Gender ](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/residence_smoking_vs.storke_1.png)
+<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/residence_smoking_vs.storke_1.png" alt="Residence_Smoking_Gender">
 
 Risk vs Marital Status, Job Type, and Age
-![ Dashboard 1 ](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Dashboard%231.png)
+<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Dashboard%231.png" alt="Dashboard">
 
 Heatmap of Married and Residence Type Broken Down by Gender
-![Married_Heatmap](https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/HEATMAP-Married_Gender_Residence_Vs_Stroke_Risk.png)
+<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/HEATMAP-Married_Gender_Residence_Vs_Stroke_Risk.png" alt="Married_Heatmap">
+
+### Results & Visualizations 
 
 ### Ensemble Learning
 
@@ -119,9 +117,9 @@ In these models, dense refers to the parameter that all perceptrons are intercon
 *A network of multiple layers named hidden layers, holding multiple perceptions. There are different types of interconnectedness including Convolution Neural Networks (CNN), Recurrent Neural Networks (RNN), and Long Short-Term Memory Networks (LSTM). Here the relatively simple dense, feed-forward network was used.*
 
 ### Neural Network Results
-![history_plots](https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/history_plots.png)
-![confusion_matrices](https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/confusion_matrices.png)
-![total_acm_df](https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/total_acm_df.png)
+<img src="https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/history_plots.png" alt="history_plots">
+<img src="https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/confusion_matrices.png" alt="confusion_matrices">
+<img src="https://github.com/K10Huff/Team_01_Project/blob/d5653208794722e7aebb4947f6dbd4897d55692e/resources/images/total_acm_df.png" alt="total_acm_df">
 
 ### Neural Network Conclusion
 Here we can see that as the neural network becomes more complex, it becomes more susceptible to overfitting; both the precision and the balanced accuracy scored drop significantly. The simplest, single perceptron model yields the best results. 
@@ -232,6 +230,6 @@ We wanted to take a look at the specific inputs that the model was using to make
   </tbody>
 </table>
 
-
+## Project Conclusion
 
 
