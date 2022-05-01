@@ -12,7 +12,7 @@ The dataset was sourced from https://www.kaggle.com/datasets/fedesoriano/stroke-
 
 ### Initial Analysis of the Data
 Overview of the Features
-<img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Feature_Matrix.png" alt="Overview of the Features">
+<img src="https://github.com/K10Huff/Team_01_Project/blob/97a90d94b01de694379ba3746e971c8f9548fb32/docs/assets/images/Feature_Matrix.png" alt="Overview of the Features">
 
 Subjects in the Dataset Who Have Suffered A Stroke
 <img src="https://github.com/K10Huff/Team_01_Project/blob/6701451306c5c67d7594a3d7e6c085f497d190db/resources/images/Target_variable.png" alt="Target Variable">
