@@ -122,7 +122,7 @@ In these models, dense refers to the parameter that all perceptrons are intercon
 #### Single Perceptron
 *The simplest of the neural networks, it contains a single perceptron and only two layers. The input layer passes the data to the perceptron and the perceptron performs a set of calculations and passes the weighted data to an activation function for the output layer.*
 
-#### Multi Perceptron, Single Layer
+#### Multi Perceptron
 *In this step the model is elevated to an Artificial Neural Network (ANN) with the addition of other perceptrons.*
 
 #### Deep Learning
