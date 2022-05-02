@@ -13,6 +13,11 @@ The aim of this project is to build and compare different machine learning model
 ## Dataset
 The dataset was sourced from https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset. The dataset includes eleven different features regarding health and lifestyle. The goal is to determine if there is a way to determine a patient’s risk for stroke based on the eleven features.
 
+### Assumptions and Limitations of the Dataset
+- Age of the Patient: The assumption was made that the age in the dataset is referring to the age at which the patient suffered the stroke and not their age at data collection.
+- Data Collection: The method of data collection was not released to the public. 
+
+
 ### Initial Analysis of the Data
 Overview of the Features
 <img src="docs/assets/images/Feature_Matrix.png" alt="Overview of the Features">
