@@ -1,10 +1,13 @@
 # Stroke Prediction
 
 ## Topic Selected
- The goal of this analysis is to put together a stroke prediction model using various health and lifestyle metrics. It is important to understand and assess the risk of suffering from a stroke and the purpose of this investigation is to apply different machine learning models to empower people with information.
+A stroke is a medical emergency when the brain is deprived of blood flow and subsequently oxygen and nutrients. According to the American Heart Association, strokes are the fifth leading cause of death and a major cause of disability in the United States. There are two different types of strokes; hemorrhagic strokes are when blood vessels burst in the brain and internal bleeding occurs and ischemic strokes are when blood vessels are blocked by a clot. A subcategory of ischemic strokes called transient ischemic events is when blood flow is only temporarily restricted to parts of the brain. They are considered “warning strokes” since the patient will likely go on to suffer from a major stroke if medical intervention is not received. Strokes can leave patients with permanent decreased motor function and cognitive abilities, severely affecting their quality of life.
+
+The aim of this project is to build and compare different machine learning models that will assess eleven different clinical features including health and lifestyle metrics in order to predict if a patient is likely to suffer from a stroke.  Information is power and knowing the likelihood of suffering from a stroke, as well as what features play the most prominent role in risk assessment, can empower patients to take agency over their own health and wellbeing and take measures to reduce their risk. 
+
 
 #### Questions to be Addressed: 
-- Which learning model work best with our dataset
+- Which learning model work best with our dataset?
 - Which features influence the model the most?
 
 ## Dataset
