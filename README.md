@@ -117,6 +117,7 @@ Overall we see that the ensemble methods fare quite similarly in their results. 
 ### Neural Networks 
 ### Overview
 Neural Networks are machine learning strategies modeled after the human brain. Within neural networks, computations are performed by a neuron or a perceptron and have the ability to pass the data on to other neurons or other layers within the model. The benefit to this model is that after the initial layer, the subsequent perceptrons are working with weighted data instead of raw data.  
+
 In these models, dense refers to the parameter that all perceptrons are interconnected and ReLU and Sigmoid are activation functions that weight the data in different ways. We were interested in a classification/binary decision and so only one output neuron with a sigmoid activation function was necessary to produce a probability output. During compiling the adam optimizer was used to help the model overcome weaker features and the binary_crossentropy loss function was chosen since it was specifically designed to evaluate a binary classification model.
 
 #### Single Perceptron
