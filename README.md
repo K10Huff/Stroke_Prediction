@@ -129,7 +129,8 @@ Actual Stroke                      15                37
 avg / total       0.95      0.74      0.71      0.81      0.72      0.53      1228
 ```
 For the results we see that overall precision is quite good, however the precision of predicted stoke is very low. This shows a high level of type 1 error [false positive].
-#### Combination (Over/Under)
+
+### Combination (Over/Under)
 Combo uses techniques from both over and undersampling in an attempt to create a more balanced dataset.
 
 #### SMOTEEN
