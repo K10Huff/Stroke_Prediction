@@ -17,7 +17,6 @@ The dataset was sourced from https://www.kaggle.com/datasets/fedesoriano/stroke-
 - Age of the Patient: The assumption was made that the age in the dataset is referring to the age at which the patient suffered the stroke and not their age at data collection.
 - Data Collection: The method of data collection was not released to the public. 
 
-
 ### Initial Analysis of the Data
 Overview of the Features
 <img src="docs/assets/images/Feature_Matrix.png" alt="Overview of the Features">
@@ -150,7 +149,6 @@ For the results we see that overall precision is quite good, however the precisi
 
 ### Sampling Conclusions
 Overall we see that the sampling methods fare quite similarly in their results. They all seem very susceptible to type 1 error. Albeit in this scenario, type 1 error, or false positive is far more ideal than false negatives, which could lead to strokes that would not be predicted. They all boast similar F1 scores, but the BAC (Balanced Accuracy Score) of the SMOTEEN and ADASYN models are higher. Given that the dataset we are using is on the smaller side, it may be more beneficial to use an oversampling technique to do the training as it would generate more points in the minority class.
-
 
 ### Ensemble Learning
 
