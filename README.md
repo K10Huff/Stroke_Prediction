@@ -35,8 +35,7 @@ Breakdown of Residence Type by Gender and Smoking Status
 <img src="docs/assets/images/residence_smoking_vs.storke_1.png" alt="Residence_Smoking_Gender">
 
 Average Glucose Level vs Age
-<img src="docs/assets/images/avg_glucose_level_vs_age.png alt=avg_glucose_level">
-
+<img src="docs/assets/images/avg_glucose_level_vs_age.png" alt="avg_glucose_level">
 
 Risk vs Marital Status, Job Type, and Age
 <img src="docs/assets/images/Dashboard%231.png" alt="Dashboard">
